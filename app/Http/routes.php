@@ -19,8 +19,8 @@ if(App::environment('local')) {
     Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 };
 
-Route::get('/lorem-ipsum');
-Route::post('/lorem-ipsum');
+Route::get('/lorem-ipsum', 'LoremController@getLorem');
+Route::post('/lorem-ipsum', 'LoremController@postLorem');
 
-Route::get('/rand-user');
-Route::post('/rand-user');
+Route::get('/rand-user', 'RandUserController@getUsers');
+Route::post('/rand-user', 'RandUserController@postUsers');
