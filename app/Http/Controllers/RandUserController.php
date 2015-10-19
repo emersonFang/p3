@@ -15,7 +15,8 @@ class RandUserController extends Controller
      */
     public function getUsers()
     {
-        return "get random users";
+        //return "get random users";
+        return view('randuser.index');
     }
 
     public function postUsers()

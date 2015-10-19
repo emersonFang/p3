@@ -15,7 +15,8 @@ class LoremController extends Controller
      */
     public function getLorem()
     {
-        return "get your Lorem Ipsum text";
+        //return "get your Lorem Ipsum text";
+        return view('lorem.index');
     }
 
     public function postLorem()

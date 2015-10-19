@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Generate Lorem Ipsum Text
+    <h1>Generate Lorem Ipsum Text</h1>
 @stop
 
 
@@ -12,8 +12,7 @@ Use it to add specific things that *this* View needs in the head,
 such as a page specific styesheets.
 --}}
 @section('head')
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
 @stop
 
 
