@@ -17,10 +17,28 @@ such as a page specific styesheets.
 
 
 @section('content')
-    <h2>Generate Random Users</h2>
+    <h2>Generate Random Users!</h2>
     <form>
+        <p>How many users do you want?</p>
+        <b>Number of users</b>
+        <input type='number' name='numUsers' min='1' max='100' value="5" id="paragraphs">
+        (Max 100)
+        <br>
 
+        <p>Include:</p>
+        <b>Birthdate</b>
+        <input type="checkbox" name="birthdate" value='Yes' />
+        <br>
 
+        <b>Profile</b>
+        <input type="checkbox" name="profile" value='Yes' />
+        <br>
+
+        <b>Favorite Color</b>
+        <input type="checkbox" name="color" value='Yes' />
+        <br><br>
+
+        <input type="submit" value="Generate!">
 
     </form>
 

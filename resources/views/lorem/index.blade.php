@@ -17,10 +17,16 @@ such as a page specific styesheets.
 
 
 @section('content')
-    <h2>Generate Lorem Ipsum Text</h2>
+    <h2>Generate Lorem Ipsum Text!</h2>
 
-    <form>
+    <form class="container">
+        <p>How many paragraphs do you want?</p>
+        <b>Paragraphs</b>
+            <input type='number' name='numParagraphs' min='1' max='100' value="5" id="paragraphs">
+        (Max 100)
+        <br><br>
 
+        <input type="submit" value="Generate!">
     </form>
 
 @stop
