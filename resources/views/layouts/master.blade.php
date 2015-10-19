@@ -14,6 +14,34 @@
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
+    <style>
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            padding:2%;
+        }
+
+        img.displayed {
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+        .container {
+            width:%;
+            padding: 2.5%;
+            min-width:800px;
+            margin:auto;
+            text-align:center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+    </style>
+
         {{-- Yield any page specific CSS files or anything else you might want in the <head> --}}
         @yield('head')
     </head>
@@ -22,6 +50,7 @@
 
 <header>
     <img
+            class="displayed"
             src="/assets/images/logo.png"
             style='width:400px'
             alt='user and text generator app logo'>
