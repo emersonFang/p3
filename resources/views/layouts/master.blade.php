@@ -22,8 +22,8 @@
 
 <header>
     <img
-            src="{{ HTML::image('assets/images/logo.png') }}"
-            style='width:300px'
+            src="/assets/images/logo.png"
+            style='width:400px'
             alt='user and text generator app logo'>
 </header>
 

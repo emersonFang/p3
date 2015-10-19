@@ -2,7 +2,7 @@
 
 
 @section('title')
-    <h1>Generate Random Users</h1>
+    Generate Random Users
 @stop
 
 
@@ -17,7 +17,11 @@ such as a page specific styesheets.
 
 
 @section('content')
-    Generate Random Users
+    <h2>Generate Random Users</h2>
+    <form>
+
+    </form>
+
 @stop
 
 

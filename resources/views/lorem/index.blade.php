@@ -2,7 +2,7 @@
 
 
 @section('title')
-    <h1>Generate Lorem Ipsum Text</h1>
+    Generate Lorem Ipsum Text
 @stop
 
 
@@ -17,7 +17,12 @@ such as a page specific styesheets.
 
 
 @section('content')
-    Generate Lorem Ipsum Text
+    <h2>Generate Lorem Ipsum Text</h2>
+
+    <form>
+
+    </form>
+
 @stop
 
 
