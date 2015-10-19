@@ -19,8 +19,13 @@ class RandUserController extends Controller
         return view('randuser.index');
     }
 
-    public function postUsers()
+    public function postUsers(Request $request)
     {
+        $this->validate($request, [
+
+        ]);
+
+        dd($request)->all();
         return "here are your randomly generated users";
     }
 

@@ -19,8 +19,14 @@ class LoremController extends Controller
         return view('lorem.index');
     }
 
-    public function postLorem()
+    public function postLorem(Request $request)
     {
+        $this->validate($request, [
+            
+        ]);
+
+
+        dd($request)->all();
         return "here's your Lorem Ipsum text";
     }
 
