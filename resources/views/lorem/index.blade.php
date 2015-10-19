@@ -19,7 +19,8 @@ such as a page specific styesheets.
 @section('content')
     <h2>Generate Lorem Ipsum Text!</h2>
 
-    <form class="container">
+    <form class="container" method="post" action="/lorem-ipsum">
+        <input type='hidden' name='_token' value="{{csrf_token()}}">
         <p>How many paragraphs do you want?</p>
         <b>Paragraphs</b>
             <input type='number' name='numParagraphs' min='1' max='100' value="5" id="paragraphs">

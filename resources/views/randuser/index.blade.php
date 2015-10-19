@@ -18,7 +18,8 @@ such as a page specific styesheets.
 
 @section('content')
     <h2>Generate Random Users!</h2>
-    <form>
+    <form class="container" method="post" action="/rand-user">
+        <input type='hidden' name='_token' value="{{csrf_token()}}">;
         <p>How many users do you want?</p>
         <b>Number of users</b>
         <input type='number' name='numUsers' min='1' max='100' value="5" id="paragraphs">
