@@ -27,12 +27,13 @@ such as a page specific styesheets.
         <br>
 
         <p>Include:</p>
-        <b>Birthdate</b>
-        <input type="checkbox" name="birthdate" value='{{old('birthdate')}}' />
-        <br>
 
         <b>Profile</b>
         <input type="checkbox" name="profile" value='{{old('profile')}}' />
+        <br>
+
+        <b>Birthdate</b>
+        <input type="checkbox" name="birthdate" value='{{old('birthdate')}}' />
         <br>
 
         <b>Favorite Color</b>
@@ -51,7 +52,22 @@ such as a page specific styesheets.
 
     </form>
 
+
     <h2>Your Randomly Generated Users</h2>
+        @foreach ($fake as $user )
+            <div class="user_results_container">
+            @if((strpos($user,'http://lorempixel.com') !== false))
+            <img src={{$user}} width='300px' height='200px'>
+            <br><br>
+            @else
+            {{ $user }}
+                @endif
+
+                @if((strpos($user,'name: ') !== false))
+                </div>
+                @endif
+        @endforeach
+
 
 @stop
 

@@ -54,6 +54,12 @@
             overflow:auto;
         }
 
+        .user_results_container {
+            border:1px solid black;
+            padding: 0%;
+            float: left;
+        }
+
         footer {
             padding: 2.5%;
             text-align: center;
@@ -93,6 +99,7 @@
     &copy; {{ date('Y') }}
 </footer>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 {{-- Yield any page specific JS files or anything else you might want at the end of the body --}}

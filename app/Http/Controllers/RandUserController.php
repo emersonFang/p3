@@ -29,25 +29,29 @@ class RandUserController extends Controller
         $faker= \Faker\Factory::create();
         $fake = array();
         for ($i = 0; $i <= htmlspecialchars($request["numUsers"]-1); $i++) {
-            array_push($fake, $faker->name);
 
-            if (isset($request["birthdate"])) {//for birthday
-                array_push($fake, $faker->dateTimeThisCentury->format('Y-m-d'));
-            }
             if (isset($request["profile"])) {//for profile
                 array_push($fake, $faker->imageUrl(600, 480, 'cats', true, 'Faker')); // 'http://lorempixel.com/800/400/cats/Faker');
             }
 
+            array_push($fake, 'name: '.$faker->name);
+
+            if (isset($request["birthdate"])) {//for birthday
+                array_push($fake, 'born: '.$faker->dateTimeThisCentury->format('Y-m-d'));
+            }
+
             if (isset($request["color"])) {//for color
-                array_push($fake, $faker->safeColorName);
+                array_push($fake, 'favorite color: '.$faker->safeColorName);
 
             }
+
+
         }
 
         //dd($request)->all();
         //dd($fake)->all();
 
-        return view('randuser.postindex')->with($fake);
+        return view('randuser.postindex')->with(['fake'=> $fake]);
     }
 
 }
