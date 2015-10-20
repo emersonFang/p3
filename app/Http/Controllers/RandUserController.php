@@ -45,8 +45,9 @@ class RandUserController extends Controller
         }
 
         //dd($request)->all();
-        dd($fake)->all();
-        return "here are your randomly generated users";
+        //dd($fake)->all();
+
+        return view('randuser.postindex');
     }
 
 }
