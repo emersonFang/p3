@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1557bf1d-d6e0-466f-9a47-72ef888b7f27" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RandUserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RandUserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/randuser/postindex.blade.php" afterPath="$PROJECT_DIR$/resources/views/randuser/postindex.blade.php" />
     </list>
     <ignored path="p3.iws" />
@@ -42,10 +40,10 @@
         <entry file="file://$PROJECT_DIR$/resources/views/randuser/postindex.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.08095238">
-              <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+              <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
               <folding>
-                <marker date="1445365199353" expanded="true" signature="2614:2615" placeholder="..." />
-                <marker date="1445365199353" expanded="true" signature="2702:2734" placeholder="{...}" />
+                <marker date="1445365885025" expanded="true" signature="2615:2616" placeholder="..." />
+                <marker date="1445365885025" expanded="true" signature="2703:2735" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -734,10 +732,10 @@
     <entry file="file://$PROJECT_DIR$/resources/views/randuser/postindex.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08095238">
-          <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
           <folding>
-            <marker date="1445365199353" expanded="true" signature="2614:2615" placeholder="..." />
-            <marker date="1445365199353" expanded="true" signature="2702:2734" placeholder="{...}" />
+            <marker date="1445365885025" expanded="true" signature="2615:2616" placeholder="..." />
+            <marker date="1445365885025" expanded="true" signature="2703:2735" placeholder="{...}" />
           </folding>
         </state>
       </provider>
