@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandUserController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RandUserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RandUserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59134614">
-              <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+            <state vertical-scroll-proportion="-1.1153846">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -57,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoremController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoremController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoremController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.8076925">
+            <state vertical-scroll-proportion="0.5641026">
               <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
@@ -72,8 +72,8 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/lorem/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.730769">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,8 +161,8 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/lorem/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/randuser/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/LoremController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RandUserController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LoremController.php" />
       </list>
     </option>
   </component>
@@ -809,24 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/lorem/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.730769">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoremController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8076925">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/randuser/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
@@ -837,8 +819,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RandUserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59134614">
-          <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+        <state vertical-scroll-proportion="-1.1153846">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/lorem/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoremController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5641026">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>

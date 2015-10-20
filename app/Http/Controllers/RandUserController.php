@@ -29,14 +29,14 @@ class RandUserController extends Controller
         $faker= \Faker\Factory::create();
         $fake = array($faker->name);
         for ($i = 0; $i <= htmlspecialchars($request["numUsers"]); $i++) {
-            if (isset($request["birthdate"])) {//for birthday
+            if ($request->has("birthdate")) {//for birthday
                 array_push($fake, $faker->dateTimeThisCentury->format('Y-m-d'));
             }
-            if (isset($request["profile"])) {//for profile
+            if ($request->has("profile")) {//for profile
                 array_push($fake, $faker->imageUrl(600, 480, 'cats', true, 'Faker')); // 'http://lorempixel.com/800/400/cats/Faker');
             }
 
-            if (isset($_POST["color"])) {//for color
+            if ($request->has("color")) {//for color
                 array_push($fake, $faker->safeColorName);
 
             }

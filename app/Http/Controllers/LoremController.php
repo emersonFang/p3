@@ -27,7 +27,7 @@ class LoremController extends Controller
 
         //generate new text
         $generator = new Badcow\LoremIpsum\Generator();
-        $paragraphs = $generator->getParagraphs(5);
+        $paragraphs = $generator->getParagraphs($request['numParagraphs']);
         echo implode('<p>', $paragraphs);
 
         dd($request)->all();
