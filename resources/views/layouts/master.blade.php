@@ -202,7 +202,7 @@
 
 </body>
 
-<br><br>
+<br>
 
 <footer>
     &copy; {{ date('Y') }}
