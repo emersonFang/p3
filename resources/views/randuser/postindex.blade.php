@@ -18,7 +18,7 @@ such as a page specific styesheets.
 
 @section('content')
     <h2>Generate New Random Users!</h2>
-    <form class="container" method="post" action="/rand-user">
+    <form class="blocktext" method="post" action="/rand-user">
         <input type='hidden' name='_token' value="{{csrf_token()}}">
         <p>How many users do you want?</p>
         <b>Number of users</b>
@@ -28,8 +28,24 @@ such as a page specific styesheets.
 
         <p>Include:</p>
 
-        <b>Profile</b>
+        {{--}}<b>Profile</b>
         <input type="checkbox" name="profile" value='{{old('profile')}}' />
+        <br>--}}
+
+        <b>Company</b>
+        <input type="checkbox" name="company" value='{{old('company')}}' />
+        <br>
+
+        <b>Email</b>
+        <input type="checkbox" name="email" value='{{old('email')}}' />
+        <br>
+
+        <b>Phone</b>
+        <input type="checkbox" name="phone" value='{{old('phone')}}' />
+        <br>
+
+        <b>Location</b>
+        <input type="checkbox" name="location" value='{{old('location')}}' />
         <br>
 
         <b>Birthdate</b>
@@ -38,6 +54,10 @@ such as a page specific styesheets.
 
         <b>Favorite Color</b>
         <input type="checkbox" name="color" value='{{old('color')}}' />
+        <br>
+
+        <b>Favorite Quote</b>
+        <input type="checkbox" name="favoritequote" value='{{old('favoritequote')}}' />
         <br><br>
 
         @if(count($errors) > 0)
@@ -60,10 +80,18 @@ such as a page specific styesheets.
             <div class="user_results_container">
             @foreach ( $user as $userdata )
                 @if( (strpos( $userdata,'http://lorempixel.com' ) !== false) )
-                <img src={{$userdata}} width='100%' height='50%' alt="user profile pic">
+                        {{--referred to http://stackoverflow.com/questions/6856711/css-rounded-corners-on-an-image-problem--}}
+                        <div class="outer">
+                            <div class="image">
+                                <img src={{$userdata}} width='100%' height='100%' alt="user profile pic">
+                            </div>
+                        </div>
+
                 <br><br>
                 @else
-                {{ $userdata }}
+                <div class ="blocktext">
+                {{ $userdata }}<br><br>
+                </div>
                 @endif
             @endforeach
             </div>

@@ -34,19 +34,39 @@ class RandUserController extends Controller
         //generate data for each user
         for ($i = 0; $i <= htmlspecialchars($request["numUsers"]-1); $i++) {
             $userdata = array();
-            if (isset($request["profile"])) {//for profile
-                array_push($userdata, $faker->imageUrl(300, 240, 'cats', true, 'Faker')); // 'http://lorempixel.com/800/400/cats/Faker');
+            //if (isset($request["profile"])) {//for profile
+            array_push($userdata, $faker->imageUrl(300, 240, 'cats', true, 'Faker')); // 'http://lorempixel.com/800/400/cats/Faker');
+            //}
+
+            array_push($userdata, 'Name:  '.$faker->name);
+
+            if (isset($request["company"])) {
+                array_push($userdata, 'Company:  '.$faker->company.' '.$faker->companySuffix);
             }
 
-            array_push($userdata, 'name: '.$faker->name);
+            if (isset($request["email"])) {
+                array_push($userdata, 'Email:  '.$faker->companyEmail);
+            }
+
+            if (isset($request["phone"])) {
+                array_push($userdata, 'Phone:  '.$faker->phoneNumber);
+            }
+
+            if (isset($request["location"])) {
+                array_push($userdata, 'Location:  '.$faker->address);
+            }
 
             if (isset($request["birthdate"])) {//for birthday
-                array_push($userdata, 'born: '.$faker->dateTimeThisCentury->format('Y-m-d'));
+                array_push($userdata, 'Born:  '.$faker->dateTimeThisCentury->format('Y-m-d'));
             }
 
             if (isset($request["color"])) {//for color
-                array_push($userdata, 'favorite color: '.$faker->safeColorName);
+                array_push($userdata, 'Favorite color:  '.$faker->safeColorName);
 
+            }
+
+            if (isset($request["favoritequote"])) {
+                array_push($userdata, 'Favorite Quote:  "'.$faker->realText($maxNbChars = 200, $indexSize = 2).'"');
             }
 
             $alluserdata[]=$userdata;

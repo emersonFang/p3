@@ -16,6 +16,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/readable/bootstrap.min.css" type="text/css">
     <style>
 
+        html {
+            box-sizing: border-box;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
         h1 {
             text-align: center;
         }
@@ -32,7 +40,7 @@
             margin-right: auto
         }
         .container {
-            width:70%;
+            width:80%;
             padding: 0;
             min-width:800px;
             margin:auto;
@@ -52,16 +60,32 @@
             font-size: 10px;
             font-weight: bold;
             overflow:auto;
+            border-radius: 15px;
+
+        }
+
+        .blocktext {
+            margin-left: auto;
+            margin-right: auto;
+            width: 20em;
+        }
+
+        .container .blocktext {
+            margin-left: auto;
+            margin-right: auto;
+            width:80%;
         }
 
         .user_results_container {
-            text-align: center;
+            text-align: left;
+            font-size: smaller;
             border:1px solid black;
             padding: 1em;
-            height:400px;
-            width:25%;
+            height:auto;
+            width:50%;
             float: left;
-
+            border-radius: 15px;
+            overflow: auto;
         }
 
         footer {
@@ -81,10 +105,43 @@
         }
 
         div.container {
-            border: 1px solid #000000;
             overflow: auto;
             width: 100%
             text-align: center;
+            border-radius: 15px;
+        }
+
+        div img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .outer {
+            width: 50%;
+            height: 40%;
+            -webkit-box-shadow: 0px 0px 10px #4d4d4d;
+            -moz-box-shadow: 0px 0px 10px #4d4d4d;
+            box-shadow: 0px 0px 10px #4d4d4d;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -khtml-border-radius: 8px;
+            border-radius: 8px;
+            border:solid white 3px;
+            overflow: hidden;
+            padding: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .image {
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -khtml-border-radius: 8px;
+            border-radius: 8px;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
         }
 
     </style>
@@ -96,11 +153,15 @@
 <body>
 
 <header>
-    <img
-            class="displayed"
-            src="/assets/images/logo.png"
-            style='width:200px'
-            alt='user and text generator app logo'>
+    <div class="outer" style="width: 300px">
+        <div class="image">
+            <img
+                    class="displayed"
+                    src="/assets/images/logo.png"
+                    style='height:auto; width:100%;display:block;margin-left: auto;margin-right:auto'
+                    alt='user and text generator app logo'>
+        </div>
+    </div>
 
     <nav>
         <a href='/'>&larr; Home</a>
@@ -119,6 +180,8 @@
 @yield('body')
 
 </body>
+
+<br><br>
 
 <footer>
     &copy; {{ date('Y') }}
