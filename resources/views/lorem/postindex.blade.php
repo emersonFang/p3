@@ -35,7 +35,7 @@ such as a page specific styesheets.
 
         <input type="submit" value="Generate!">
     </form>
-    <h2>Your Fake Latin Text:</h2>
+    <h3>Your Fake Latin Text:</h3>
     <div class="loremresults_container">
         @foreach($paragraphs as $paragraph)
         {{ $paragraph }}
