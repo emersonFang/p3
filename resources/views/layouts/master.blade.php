@@ -57,7 +57,7 @@
             min-width:800px;
             margin:auto;
             text-align:left;
-            font-size: 10px;
+            font-size: 12px;
             font-weight: bold;
             overflow:auto;
             border-radius: 15px;
@@ -99,7 +99,7 @@
 
         .user_results_container {
             text-align: left;
-            font-size: 10px;
+            font-size: 12px;
             border:1px solid black;
             padding: 1em;
             height:500px;

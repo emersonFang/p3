@@ -73,13 +73,13 @@ such as a page specific styesheets.
     </form>
 
 
-    <h2>Your Randomly Generated Users (Meow):</h2>
+    <h2>Your Randomly Generated Users (Meow!):</h2>
 
     <div class="container">
         @foreach ( $alluserdata as $user )
             <div class="user_results_container">
             @foreach ( $user as $userdata )
-                @if( (strpos( $userdata,'http://lorempixel.com' ) !== false) )
+                @if( (strpos( $userdata,'http://lorempixel.com' ) !== false) ){{--http://stackoverflow.com/questions/4366730/check-if-string-contains-specific-words--}}
                         {{--referred to http://stackoverflow.com/questions/6856711/css-rounded-corners-on-an-image-problem--}}
                         <div class="outer">
                             <div class="image">

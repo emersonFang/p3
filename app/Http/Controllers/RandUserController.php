@@ -34,9 +34,8 @@ class RandUserController extends Controller
         //generate data for each user
         for ($i = 0; $i <= htmlspecialchars($request["numUsers"]-1); $i++) {
             $userdata = array();
-            //if (isset($request["profile"])) {//for profile
+
             array_push($userdata, $faker->imageUrl(300, 240, 'cats', true, 'Faker')); // 'http://lorempixel.com/800/400/cats/Faker');
-            //}
 
             array_push($userdata, 'Name:  '.$faker->name);
 
