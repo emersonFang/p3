@@ -25,6 +25,10 @@ class LoremController extends Controller
             'numParagraphs' => 'required|numeric',
         ]);
 
+        //generate new text
+        $generator = new Badcow\LoremIpsum\Generator();
+        $paragraphs = $generator->getParagraphs(5);
+        echo implode('<p>', $paragraphs);
 
         dd($request)->all();
         return "here's your Lorem Ipsum text";
