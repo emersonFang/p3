@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/readable/bootstrap.min.css" type="text/css">
     <style>
 
         h1 {
@@ -54,6 +54,16 @@
             overflow:auto;
         }
 
+        footer {
+            padding: 2.5%;
+            text-align: center;
+        }
+
+        nav {
+            margin:auto;
+            text-align: center;
+        }
+
     </style>
 
         {{-- Yield any page specific CSS files or anything else you might want in the <head> --}}
@@ -68,6 +78,10 @@
             src="/assets/images/logo.png"
             style='width:200px'
             alt='user and text generator app logo'>
+
+    <nav>
+        <a href='/'>&larr; Home</a>
+    </nav>
 </header>
 
 <section>
