@@ -55,18 +55,35 @@
         }
 
         .user_results_container {
+            text-align: center;
             border:1px solid black;
-            padding: 0%;
+            padding: 1em;
+            height:400px;
+            width:25%;
             float: left;
+
         }
 
         footer {
-            padding: 2.5%;
-            text-align: center;
+            position: fixed;
+
+            left: 0;
+
+            right: 0;
+
+            bottom: 0;
+
         }
 
         nav {
             margin:auto;
+            text-align: center;
+        }
+
+        div.container {
+            border: 1px solid #000000;
+            overflow: auto;
+            width: 100%
             text-align: center;
         }
 
@@ -95,10 +112,6 @@
     @yield('content')
 </section>
 
-<footer>
-    &copy; {{ date('Y') }}
-</footer>
-
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
@@ -106,4 +119,10 @@
 @yield('body')
 
 </body>
+
+<footer>
+    &copy; {{ date('Y') }}
+</footer>
+
+
 </html>

@@ -54,23 +54,22 @@ such as a page specific styesheets.
 
 
     <h2>Your Randomly Generated Users</h2>
-        @foreach ($fake as $user )
+
+    <div class="container">
+        @foreach ( $alluserdata as $user )
             <div class="user_results_container">
-            @if((strpos($user,'http://lorempixel.com') !== false))
-            <img src={{$user}} width='300px' height='200px'>
-            <br><br>
-            @else
-            {{ $user }}
+            @foreach ( $user as $userdata )
+                @if( (strpos( $userdata,'http://lorempixel.com' ) !== false) )
+                <img src={{$userdata}} width='100%' height='50%' alt="user profile pic">
+                <br><br>
+                @else
+                {{ $userdata }}
                 @endif
-
-                @if((strpos($user,'name: ') !== false))
-                </div>
-                @endif
+            @endforeach
+            </div>
         @endforeach
-
-
+    </div>
 @stop
-
 
 {{--
 This `body` section will be yielded right before the closing </body> tag.
@@ -78,5 +77,4 @@ Use it to add specific things that *this* View needs at the end of the body,
 such as a page specific JavaScript files.
 --}}
 @section('body')
-
 @stop
