@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Badcow;
+use \Badcow as Badcow;
 
 class LoremController extends Controller
 {
@@ -27,12 +27,12 @@ class LoremController extends Controller
         ]);
 
         //generate new text
-        $generator = new Generator();
+        $generator = new Badcow\LoremIpsum\Generator();
         $paragraphs = $generator->getParagraphs($request['numParagraphs']);
-        echo implode('<p>', $paragraphs);
 
-        dd($request)->all();
-        return "here's your Lorem Ipsum text";
+        return $paragraphs;
+        //dd($request)->all();
+        //return "here's your Lorem Ipsum text";
     }
 
 }
