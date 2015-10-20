@@ -28,7 +28,7 @@
             text-align: center;
         }
 
-        h2 {
+        h2, h3 {
             text-align: center;
             padding:0;
             border:0;
