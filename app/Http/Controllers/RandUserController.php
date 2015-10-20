@@ -22,7 +22,7 @@ class RandUserController extends Controller
     public function postUsers(Request $request)
     {
         $this->validate($request, [
-
+            'numUsers' => 'required|numeric',
         ]);
 
         dd($request)->all();

@@ -23,9 +23,17 @@ such as a page specific styesheets.
         <input type='hidden' name='_token' value="{{csrf_token()}}">
         <p>How many paragraphs do you want?</p>
         <b>Paragraphs</b>
-            <input type='number' name='numParagraphs' min='1' max='100' value="5" id="paragraphs">
+            <input type='number' name='numParagraphs' min='1' max='100' value='{{old('numParagraphs')}}' id="paragraphs">
         (Max 100)
         <br><br>
+
+        @if(count($errors) > 0)
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        @endif
 
         <input type="submit" value="Generate!">
     </form>

@@ -22,22 +22,30 @@ such as a page specific styesheets.
         <input type='hidden' name='_token' value="{{csrf_token()}}">
         <p>How many users do you want?</p>
         <b>Number of users</b>
-        <input type='number' name='numUsers' min='1' max='100' value="5" id="paragraphs">
+        <input type='number' name='numUsers' min='1' max='100' value='{{old('numUsers')}}' id="paragraphs">
         (Max 100)
         <br>
 
         <p>Include:</p>
         <b>Birthdate</b>
-        <input type="checkbox" name="birthdate" value='Yes' />
+        <input type="checkbox" name="birthdate" value='{{old('birthdate')}}' />
         <br>
 
         <b>Profile</b>
-        <input type="checkbox" name="profile" value='Yes' />
+        <input type="checkbox" name="profile" value='{{old('profile')}}' />
         <br>
 
         <b>Favorite Color</b>
-        <input type="checkbox" name="color" value='Yes' />
+        <input type="checkbox" name="color" value='{{old('color')}}' />
         <br><br>
+
+        @if(count($errors) > 0)
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        @endif
 
         <input type="submit" value="Generate!">
 

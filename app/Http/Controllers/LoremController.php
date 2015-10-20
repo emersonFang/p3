@@ -22,7 +22,7 @@ class LoremController extends Controller
     public function postLorem(Request $request)
     {
         $this->validate($request, [
-            
+            'numParagraphs' => 'required|numeric',
         ]);
 
 
