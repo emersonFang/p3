@@ -52,7 +52,7 @@
     <img
             class="displayed"
             src="/assets/images/logo.png"
-            style='width:400px'
+            style='width:200px'
             alt='user and text generator app logo'>
 </header>
 
