@@ -172,6 +172,13 @@
             overflow: hidden;
         }
 
+        .button {
+            display:block;
+            text-align: center;
+            margin-left: auto;
+            margin-right:auto;
+        }
+
     </style>
 
         {{-- Yield any page specific CSS files or anything else you might want in the <head> --}}

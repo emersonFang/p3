@@ -68,7 +68,7 @@ such as a page specific styesheets.
             </ul>
         @endif
 
-        <input type="submit" value="Generate!" style="text-align: center">
+        <input type="submit" value="Generate!" class="button">
 
     </form>
 
