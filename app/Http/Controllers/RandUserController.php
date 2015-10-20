@@ -66,7 +66,7 @@ class RandUserController extends Controller
             }
 
             if (isset($request["favoritequote"])) {
-                array_push($userdata, 'Favorite Quote:  "'.$faker->realText($maxNbChars = 200, $indexSize = 2).'"');
+                array_push($userdata, 'Favorite Quote:  "'.$faker->realText($maxNbChars = 150, $indexSize = 2).'"');
             }
 
             $alluserdata[]=$userdata;

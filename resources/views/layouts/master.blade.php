@@ -99,10 +99,10 @@
 
         .user_results_container {
             text-align: left;
-            font-size: smaller;
+            font-size: 10px;
             border:1px solid black;
             padding: 1em;
-            max-height:820px;
+            height:500px;
             width:50%;
             float: left;
             border-radius: 15px;

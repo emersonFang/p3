@@ -73,7 +73,7 @@ such as a page specific styesheets.
     </form>
 
 
-    <h2>Your Randomly Generated Users</h2>
+    <h2>Your Randomly Generated Users (Meow):</h2>
 
     <div class="container">
         @foreach ( $alluserdata as $user )
