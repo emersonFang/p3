@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1557bf1d-d6e0-466f-9a47-72ef888b7f27" name="Default" comment="" />
+=======
+    <list default="true" id="1557bf1d-d6e0-466f-9a47-72ef888b7f27" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/randuser/postindex.blade.php" afterPath="$PROJECT_DIR$/resources/views/randuser/postindex.blade.php" />
+    </list>
+>>>>>>> 7bda3b4c82f109b183b79a0a81187c288ab4fc09
     <ignored path="p3.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -37,9 +43,18 @@
       <file leaf-file-name="postindex.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/randuser/postindex.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-10.846154">
               <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
               <folding />
+=======
+            <state vertical-scroll-proportion="0.08095238">
+              <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+              <folding>
+                <marker date="1445365885025" expanded="true" signature="2615:2616" placeholder="..." />
+                <marker date="1445365885025" expanded="true" signature="2703:2735" placeholder="{...}" />
+              </folding>
+>>>>>>> 7bda3b4c82f109b183b79a0a81187c288ab4fc09
             </state>
           </provider>
         </entry>
@@ -787,10 +802,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RandUserController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.08173077">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
+=======
+        <state vertical-scroll-proportion="0.08095238">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding>
+            <marker date="1445365885025" expanded="true" signature="2615:2616" placeholder="..." />
+            <marker date="1445365885025" expanded="true" signature="2703:2735" placeholder="{...}" />
+>>>>>>> 7bda3b4c82f109b183b79a0a81187c288ab4fc09
           </folding>
         </state>
       </provider>
