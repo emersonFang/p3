@@ -64,6 +64,20 @@
 
         }
 
+        .loremresults_container {
+            width:70%;
+            height: 200px;
+            border:1px solid black;
+            padding: 0%;
+            min-width:800px;
+            margin:auto;
+            text-align:left;
+            font-size: 10px;
+            font-weight: bold;
+            overflow:auto;
+
+        }
+
         .blocktext {
             margin-left: auto;
             margin-right: auto;
@@ -102,6 +116,13 @@
         nav {
             margin:auto;
             text-align: center;
+        }
+
+        div.container {
+            overflow: auto;
+            width: 100%
+        text-align: center;
+            border-radius: 15px;
         }
 
         div.container {
@@ -153,7 +174,7 @@
 <body>
 
 <header>
-    <div class="outer" style="width: 300px">
+    <div class="outer" style="width: 200px;margin-top:1em">
         <div class="image">
             <img
                     class="displayed"
