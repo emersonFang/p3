@@ -102,7 +102,7 @@
             font-size: smaller;
             border:1px solid black;
             padding: 1em;
-            height:auto;
+            max-height:820px;
             width:50%;
             float: left;
             border-radius: 15px;
