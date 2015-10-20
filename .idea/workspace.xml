@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1557bf1d-d6e0-466f-9a47-72ef888b7f27" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/LoremController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoremController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RandUserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RandUserController.php" />
     </list>
     <ignored path="p3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="RandUserController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RandUserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94551283">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.40064102">
+              <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -161,9 +161,9 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/lorem/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/randuser/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/RandUserController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LoremController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RandUserController.php" />
       </list>
     </option>
   </component>
@@ -618,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RandUserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94551283">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.40064102">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>

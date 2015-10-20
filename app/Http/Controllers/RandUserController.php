@@ -27,22 +27,24 @@ class RandUserController extends Controller
 
         //generate new Users
         $faker= \Faker\Factory::create();
-        $fake = array($faker->name);
-        for ($i = 0; $i <= htmlspecialchars($request["numUsers"]); $i++) {
-            if ($request->has("birthdate")) {//for birthday
+        $fake = array();
+        for ($i = 0; $i <= htmlspecialchars($request["numUsers"]-1); $i++) {
+            array_push($fake, $faker->name);
+
+            if (isset($request["birthdate"])) {//for birthday
                 array_push($fake, $faker->dateTimeThisCentury->format('Y-m-d'));
             }
-            if ($request->has("profile")) {//for profile
+            if (isset($request["profile"])) {//for profile
                 array_push($fake, $faker->imageUrl(600, 480, 'cats', true, 'Faker')); // 'http://lorempixel.com/800/400/cats/Faker');
             }
 
-            if ($request->has("color")) {//for color
+            if (isset($request["color"])) {//for color
                 array_push($fake, $faker->safeColorName);
 
             }
         }
 
-        dd($request)->all();
+        //dd($request)->all();
         dd($fake)->all();
         return "here are your randomly generated users";
     }
