@@ -34,7 +34,7 @@ such as a page specific styesheets.
             </ul>
         @endif
 
-        <input type="submit" value="Generate!">
+        <input type="submit" value="Generate!" style="text-align:center">
     </form>
     <h3>Fake Latin Text Results Will Appear Below:</h3>
     <div class="loremresults_container">

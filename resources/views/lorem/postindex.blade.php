@@ -37,13 +37,23 @@ such as a page specific styesheets.
     </form>
     <h3>Your Fake Latin Text:</h3>
     <div class="loremresults_container">
-        @foreach($paragraphs as $paragraph)
-        {{ $paragraph }}
-            <br><br>
-        @endforeach
+        <p class="js-link">
+            @foreach($paragraphs as $paragraph)
+            {{ $paragraph }}
+                <br><br>
+            @endforeach
+        </p>
     </div>
+    <br>
+    <p style="text-align: center"><button class="js-copybtn">Copy</button></p>
+    <br>
+    {{--<button onclick="copyToClipboard({{$paragraph}})">Copy</button>
+    <br/><br/><input type="text" placeholder="Paste here for test" />--}}
+
 
 @stop
+
+
 
 
 {{--

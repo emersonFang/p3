@@ -37,4 +37,6 @@ class LoremController extends Controller
         //return "here's your Lorem Ipsum text";
     }
 
+
+
 }
