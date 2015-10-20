@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Badcow;
 
 class LoremController extends Controller
 {
@@ -26,7 +27,7 @@ class LoremController extends Controller
         ]);
 
         //generate new text
-        $generator = new Badcow\LoremIpsum\Generator();
+        $generator = new Generator();
         $paragraphs = $generator->getParagraphs($request['numParagraphs']);
         echo implode('<p>', $paragraphs);
 
