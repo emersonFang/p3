@@ -18,7 +18,6 @@ such as a page specific styesheets.
 
 @section('content')
     <h2>Generate Lorem Ipsum Text!</h2>
-
     <form class="container" method="post" action="/lorem-ipsum">
         <input type='hidden' name='_token' value="{{csrf_token()}}">
         <p>How many paragraphs do you want?</p>
@@ -37,7 +36,14 @@ such as a page specific styesheets.
 
         <input type="submit" value="Generate!">
     </form>
-
+    <br>
+    <h2>Fake Latin Text Results</h2>
+    <div class="results_container">
+        {{---}}@foreach($paragraphs as $paragraph)
+            {{ $paragraph }}
+            <br><br>
+        @endforeach---}}
+    </div>
 @stop
 
 

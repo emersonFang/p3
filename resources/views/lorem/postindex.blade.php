@@ -1,16 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Emerson
- * Date: 10/19/2015
- * Time: 10:30 PM
- */
-
 @extends('layouts.master')
 
-
 @section('title')
-    Generate Lorem Ipsum Text
+    Display Lorem Ipsum Text
 @stop
 
 
@@ -25,8 +16,7 @@ such as a page specific styesheets.
 
 
 @section('content')
-    <h2>Generate Lorem Ipsum Text!</h2>
-
+    <h2>Generate Lorem Ipsum Text Again?</h2>
     <form class="container" method="post" action="/lorem-ipsum">
         <input type='hidden' name='_token' value="{{csrf_token()}}">
         <p>How many paragraphs do you want?</p>
@@ -45,6 +35,14 @@ such as a page specific styesheets.
 
         <input type="submit" value="Generate!">
     </form>
+    <br>
+    <h2>Your Fake Latin Text</h2>
+    <div class="results_container">
+        @foreach($paragraphs as $paragraph)
+        {{ $paragraph }}
+            <br><br>
+        @endforeach
+    </div>
 
 @stop
 

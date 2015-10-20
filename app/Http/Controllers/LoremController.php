@@ -30,8 +30,9 @@ class LoremController extends Controller
         $generator = new Badcow\LoremIpsum\Generator();
         $paragraphs = $generator->getParagraphs($request['numParagraphs']);
 
-        return view('lorem.postindex');
         //return $paragraphs;
+        return view('lorem.postindex')->with(['paragraphs' => $paragraphs]);
+
         //dd($request)->all();
         //return "here's your Lorem Ipsum text";
     }

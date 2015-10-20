@@ -22,7 +22,8 @@
 
         h2 {
             text-align: center;
-            padding:2%;
+            padding:0;
+            border:0;
         }
 
         img.displayed {
@@ -31,13 +32,26 @@
             margin-right: auto
         }
         .container {
-            width:%;
-            padding: 2.5%;
+            width:70%;
+            padding: 0;
             min-width:800px;
             margin:auto;
             text-align:center;
             font-size: 20px;
             font-weight: bold;
+        }
+
+        .results_container {
+            width:70%;
+            height: 200px;
+            border:1px solid black;
+            padding: 0%;
+            min-width:800px;
+            margin:auto;
+            text-align:left;
+            font-size: 10px;
+            font-weight: bold;
+            overflow:auto;
         }
 
     </style>

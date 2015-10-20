@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Generate Random Users
+    Display Random Users
 @stop
 
 
@@ -17,7 +17,7 @@ such as a page specific styesheets.
 
 
 @section('content')
-    <h2>Generate Random Users!</h2>
+    <h2>Generate New Random Users!</h2>
     <form class="container" method="post" action="/rand-user">
         <input type='hidden' name='_token' value="{{csrf_token()}}">
         <p>How many users do you want?</p>
@@ -50,6 +50,8 @@ such as a page specific styesheets.
         <input type="submit" value="Generate!">
 
     </form>
+
+    <h2>Your Randomly Generated Users</h2>
 
 @stop
 

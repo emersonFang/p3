@@ -47,7 +47,7 @@ class RandUserController extends Controller
         //dd($request)->all();
         //dd($fake)->all();
 
-        return view('randuser.postindex');
+        return view('randuser.postindex')->with($fake);
     }
 
 }
