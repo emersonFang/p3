@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+
+.container {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 96px;
+}
+
+img.title {
+    height:auto;
+    width:40%;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0.15em;
+}
