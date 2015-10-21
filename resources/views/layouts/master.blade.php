@@ -55,7 +55,7 @@
 
 <footer>
     &copy; {{ date('Y') }}
-    {!!" by Emerson Fang";!!}
+    {!!" by Emerson Fang"!!}
 </footer>
 
 
