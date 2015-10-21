@@ -24,3 +24,6 @@ Route::post('/lorem-ipsum', 'LoremController@postLorem');
 
 Route::get('/rand-user', 'RandUserController@getUsers');
 Route::post('/rand-user', 'RandUserController@postUsers');
+
+Route::get('/pwd-gen', 'PwdGenController@getPwd');
+Route::post('/pwd-gen', 'PwdGenController@postPwd');
