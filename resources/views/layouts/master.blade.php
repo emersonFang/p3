@@ -103,10 +103,11 @@
             border:1px solid black;
             padding: 1em;
             height:500px;
-            width:50%;
+            width:46%;
             float: left;
             border-radius: 15px;
             overflow: auto;
+            margin: 1em;
         }
 
         footer {
