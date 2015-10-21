@@ -11,7 +11,7 @@
 
 @section('content')
 
-        <header role="banner">
+        <header class="pwdgen_title" role="banner">
             <h1>xkcd-style Password Generator</h1>
         </header>
 

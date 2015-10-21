@@ -16,9 +16,8 @@
     <header>
         <img
                 class="title"
-                src="/assets/images/developer's best friend logo.png"
+                src="/assets/images/developer's best friend aqua logo.png"
                 alt='developers best friend logo'>
-        </div>
     </header>
     <content style="text-align: center; width: 80%">
             <div class="container">

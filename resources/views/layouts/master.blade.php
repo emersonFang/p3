@@ -21,15 +21,10 @@
 <body>
 
 <header>
-    <div class="outer" style="width: 200px;margin-top:1em">
-        <div class="image">
-            <img
-                    class="displayed"
-                    src="/assets/images/developer's best friend logo.png"
-                    style='height:auto; width:100%;display:block;margin-left: auto;margin-right:auto'
-                    alt='user and text generator app logo'>
-        </div>
-    </div>
+    <img
+            class="title"
+            src="/assets/images/developer's best friend aqua logo.png"
+            alt='user and text generator app logo'>
     <br>
     <nav>
         <a href='/'>&larr; Home</a>
