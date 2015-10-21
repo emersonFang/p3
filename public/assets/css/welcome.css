@@ -7,15 +7,6 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: table;
-    font-weight: 100;
-    font-family: 'Lato';
-}
-
 .container {
     text-align: center;
     display: block;
@@ -40,4 +31,15 @@ img.title {
     margin-left: auto;
     margin-right:auto;
     padding: 0.15em;
+}
+
+footer {
+    position: fixed;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
 }

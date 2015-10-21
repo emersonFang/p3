@@ -9,15 +9,14 @@
     </title>
 
     <meta charset='utf-8'>
-
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/readable/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="/assets/css/generatorpages.css">
 
      {{-- Yield any page specific CSS files or anything else you might want in the <head> --}}
-        @yield('head')
-    </head>
+    @yield('head')
+</head>
 
 <body>
 
@@ -48,15 +47,11 @@
 
 {{-- Yield any page specific JS files or anything else you might want at the end of the body --}}
 @yield('body')
-
-</body>
-
 <br>
-
 <footer>
     &copy; {{ date('Y') }}
     {!!" by Emerson Fang"!!}
 </footer>
-
+</body>
 
 </html>
