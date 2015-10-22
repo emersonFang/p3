@@ -103,10 +103,6 @@ footer {
 
 }
 
-nav {
-    text-align: center;
-}
-
 div.container {
     overflow: auto;
     width: 100%
@@ -184,4 +180,38 @@ header.pwdgen_title {
     -webkit-box-shadow: 0px 0px 0px rgba(100, 100, 100, 0.49);
     -moz-box-shadow:    0px 0px 0px rgba(100, 100, 100, 0.49);
     box-shadow:         0px 0px 0px rgba(100, 100, 100, 0.49);
+}
+
+a.button1 {
+    display: block;
+    width: 115px;
+    height: auto;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 5px 5px 5px #888888;/*http://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+}
+
+/*referred to: http://stackoverflow.com/questions/3898781/changing-a-button-color-on-hover*/
+a.button1:hover{
+    background-color: teal;
+}
+
+/*referred to: http://www.ahfb2000.com/threads/2867-I-don-t-want-my-links-to-change-colors*/
+a.button1:hover {
+    text-decoration: none;
+    color:white;
+}
+
+a.button1:link{
+    color:white;
+}
+
+nav {
+    padding-bottom: 1em;
 }

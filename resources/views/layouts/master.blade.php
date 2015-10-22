@@ -27,7 +27,7 @@
             alt='user and text generator app logo'>
     <br>
     <nav>
-        <a href='/'>&larr; Home</a>
+        <a class="button1" href='/'>&larr; Home</a>
     </nav>
 </header>
 

@@ -51,3 +51,34 @@ footer {
     bottom: 0;
 
 }
+
+/*referred to: http://stackoverflow.com/questions/8357058/how-to-make-a-href-link-look-like-a-button*/
+.button {
+    display: block;
+    width: 115px;
+    height: auto;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 5px 5px 5px #888888;/*http://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+}
+
+/*referred to: http://stackoverflow.com/questions/3898781/changing-a-button-color-on-hover*/
+.button:hover{
+    background-color: teal;
+}
+
+/*referred to: http://www.ahfb2000.com/threads/2867-I-don-t-want-my-links-to-change-colors*/
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+a:link{
+    color:white;
+}

@@ -25,17 +25,17 @@
                 <div class="blocktext">
                 <p>Lorem ipsum is filler text that is used in place of real text while a project is in production.  Use this app to generate up to 100 paragraphs of fake Latin filler text! Amazing!</p>
                 </div>
-                <a href="lorem-ipsum">Generate Text!</a>
+                <a class="button" href="lorem-ipsum">Generate Text!</a>
                 <h2>Random User Generator</h2>
                 <div class="blocktext">
                 <p>The Random User Generator will produce fake entities, complete with a name and picture.  You can customize your random users to have a variety of attributes, such as DOB, email, phone, company, favorite color, etc.  Perfect for creating a fake identity.</p>
                 </div>
-                <a href="rand-user">Generate Random Users!</a>
+                <a class="button" href="rand-user">Generate Random Users!</a>
                 <h2>xkcd-style Password Generator</h2>
                 <div class="blocktext">
                     <p>The xkcd-style Password Generator will produce passwords that use common words that are strung together, which is apparently easy to remember, but hard to guess by brute-force.  You can customize your password to have capital letters, hyphens, a number, and a special symbol.  Holy-Metal-Submarine-Batman1!</p>
                 </div>
-                <a href="pwd-gen">Generate Password!</a>
+                <a class="button" href="pwd-gen">Generate Password!</a>
             </div>
     </content>
     <br>
