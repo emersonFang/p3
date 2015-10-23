@@ -6,7 +6,7 @@ by Emerson Fang
 <http://p3.emersonfang.me>
 
 ## Description
-Developer's Best Friend app has three features:
+Developer's Best Friend app contains handy tools that a software developer could use for fake data, passwords, text, etc.  It has three features:
 - Lorem Ipsum
  - Generates random latin text, which can be used as filler in during the development of a project.
 - Random User Generator
