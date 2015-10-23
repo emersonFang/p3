@@ -17,6 +17,7 @@ company, phone number, e-mail, favorite color, and favorite quote.
 capitalize the first letter of each word, or put a special symbol or number at the end of the password.
 
 ## Demo
+http://screencast.com/t/Yd7bTYcduiF
 
 ## Details for the teaching team
 No login required.
