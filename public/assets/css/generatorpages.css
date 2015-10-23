@@ -198,13 +198,10 @@ a.button1 {
 }
 
 /*referred to: http://stackoverflow.com/questions/3898781/changing-a-button-color-on-hover*/
-a.button1:hover{
-    background-color: teal;
-}
-
 /*referred to: http://www.ahfb2000.com/threads/2867-I-don-t-want-my-links-to-change-colors*/
 a.button1:hover {
     text-decoration: none;
+    background-color: teal;
     color:white;
 }
 
