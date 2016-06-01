@@ -33,7 +33,9 @@
 
 <section>
     {{-- Main page content will be yielded here --}}
+    <div>
     @yield('content')
+    </div>
 </section>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

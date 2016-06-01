@@ -3,7 +3,7 @@ by Emerson Fang
 10/22/2015
 
 ## Live URL
-<http://p3.emersonfang.me>
+~~<http://p3.emersonfang.me>~~
 
 ## Description
 Developer's Best Friend app contains handy tools that a software developer could use for fake data, passwords, text, etc.  It has three features:
